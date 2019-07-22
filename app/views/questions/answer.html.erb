@@ -1,0 +1,11 @@
+<section class="box question">
+  <h1>Your Question</h1>
+  <p><%= @question %></p>
+</section>
+
+<section class="box answer">
+  <h1>Coach's Response</h1>
+  <p><%= @answer %></p>
+</section>
+
+<%= link_to "Ask another question?", ask_path, class: "btn" %>
